@@ -77,12 +77,9 @@ export default function CounterApp() {
       <div id='count'>{state.count}</div>
     <div><form 
     onSubmit={handleSetCount}>
-      <input type='text'
+      <input type='number'
        placeholder='enter count'
-        onChange={(e) => { if(e.target.value === NaN) {
-          return
-        }
-          setSetValue(e.target.value)} }
+        onChange={(e) => { return setSetValue(e.target.value)} }
         />
         <button type='submit' id='set-count'>set Count</button>
         </form>       
