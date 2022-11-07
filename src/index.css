@@ -5,9 +5,120 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(24, 24, 24);
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  /* COUNTER PAGE  */
+
+  .counter-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+    color: white;
+  }
+
+  button {
+    padding: 10px; 
+    border: none;
+    border: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  #count {
+    font-size: 10rem;
+  }
+
+  input {
+    padding: 10px;
+    width: 10rem;
+  }
+
+  #plus {
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  #minus {
+    background-color: rgb(0, 255, 72);
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  #reset {
+    background-color: black;
+    color: white;
+    
+    padding: 30px 40px;
+    padding-right: 70px;
+    font-size: 30px;
+  }
+  
+  form {
+    margin: 10px;
+  }
+
+  .navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .navbar .links {
+    margin-left: auto;
+  }
+  
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(255, 160, 160);
+  }
+  
+  .btn-navbar {
+      width: 100%;
+      height: calc(100vh - 80px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+  }
+  
+  .links {
+    width: 70%;
+    height: 80px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links a {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+  
+    align-items: center;
+    justify-content: center;
+  }
+
+ a {
+    color: white;
+  }
+  
+ * {
+  color: white;
+ }
