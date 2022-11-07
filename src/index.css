@@ -27,6 +27,12 @@ body {
     border: 6px;
     cursor: pointer;
     margin-top: 30px;
+    transition: ease 0.3s;
+  }
+
+  button:hover {
+    scale: 1.1;
+    opacity: 0.7;
   }
 
   #count {
@@ -55,6 +61,7 @@ body {
     background-color: rgb(255, 0, 0);
     padding: 30px;
     font-size: 30px;
+    border-radius: 10px 0 0 10px;
   }
 
   #minus {
@@ -66,7 +73,7 @@ body {
   #reset {
     background-color: black;
     color: white;
-    
+    border-radius: 0 10px 10px 0;
     padding: 30px 40px;
     padding-right: 70px;
     font-size: 30px;
