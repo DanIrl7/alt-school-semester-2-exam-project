@@ -11,6 +11,7 @@ import NotFound from './Components/NotFound'
 
 
 
+
 export default function App() {
 
  
@@ -24,7 +25,8 @@ export default function App() {
 
     <Route exact path='/' element={<CounterApp />} />
     <Route path='*' element={<NotFound />} />
-    <Route path='/' element={<ErrorBoundary />} />
+
+    <Route path='/error' element={<ErrorBoundary />} />
   </Routes>
   </div>
   )
